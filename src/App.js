@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+// import Json from './printJsonData/Json';
+//import AddNum from './numberProgram/AddNum';
+import UsersList from './numberProgram/UsersList';
+import Tree from './Pages/Tree/Tree';
+// import Parent from './childToParentData/Parent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Parent/> 
+      <Json/> 
+      <AddNum/> 
+      <UsersList />*/}
+      <Tree/>
     </div>
   );
 }
